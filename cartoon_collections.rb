@@ -1,17 +1,16 @@
 def roll_call_dwarves(array)
   dwarves = []
   array.each_with_index do |dwarf, number|
-    dwarves<< array
-    puts "#{number +1 }.*#{dwarf}"
+    dwarves<< "#{number +1 }.*#{dwarf}"
 end
-dwarves
+puts dwarves
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(array)
   # Your code here
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(array)
   # Your code here
 end
 
