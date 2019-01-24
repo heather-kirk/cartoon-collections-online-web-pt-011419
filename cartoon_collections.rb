@@ -1,10 +1,8 @@
 def roll_call_dwarves(array)
-  counter = 1
   dwarves = []
   array.each_with_index do |dwarf, number|
     dwarves<< array
     puts "#{number +1 }.*#{dwarf}"
-    counter +=1
 end
 dwarves
 end
