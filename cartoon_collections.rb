@@ -7,7 +7,7 @@ puts dwarves
 end
 
 def summon_captain_planet(array)
-  array.map { |call| call > 4 + "!" }
+  array.map { |call| call.capitalize > 4 + "!" }
 end
 
 
