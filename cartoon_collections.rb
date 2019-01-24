@@ -9,8 +9,7 @@ end
 def summon_captain_planet(array)
   array.map { |call| call > 4 + "!" }
 end
-call
-end
+
 
 def long_planeteer_calls(array)
   # Your code here
